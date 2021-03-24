@@ -1,0 +1,90 @@
+{
+    "Pages": [
+        {
+            "pageid": 1,
+            "pagetype": "parent",
+            "pagename": "User Stories",
+            "enabled": true,
+            "role": [
+                "ALL",
+                "ADMIN",
+                "SUPERADMIN",
+                "SENIOR",
+                "JUNIOR"
+            ],
+            "subpages": [
+                {
+                    "pageid": 2,
+                    "pagetype": "child",
+                    "pagename": "Add Stories",
+                    "enabled": true,
+                    "template": "addStory.json",
+                    "role": [
+                        "ALL",
+                        "ADMIN",
+                        "SUPERADMIN",
+                        "SENIOR",
+                        "JUNIOR"
+                    ]
+                },
+                {
+                    "pageid": 3,
+                    "pagetype": "child",
+                    "pagename": "List Stories",
+                    "enabled": true,
+                    "template": "listStory.json",
+                    "role": [
+                        "ALL",
+                        "ADMIN",
+                        "SUPERADMIN",
+                        "SENIOR",
+                        "JUNIOR"
+                    ]
+                }
+            ]
+        },
+        {
+            "pageid": 11,
+            "pagetype": "parent",
+            "pagename": "Top Navigation",
+            "enabled": true,
+            "role": [
+                "ALL",
+                "ADMIN",
+                "SUPERADMIN",
+                "SENIOR",
+                "JUNIOR"
+            ],
+            "subpages": [
+                {
+                    "pageid": 12,
+                    "pagetype": "child",
+                    "pagename": "Add Navigation",
+                    "enabled": true,
+                    "template": "addNavigation.json",
+                    "role": [
+                        "ALL",
+                        "ADMIN",
+                        "SUPERADMIN",
+                        "SENIOR",
+                        "JUNIOR"
+                    ]
+                },
+                {
+                    "pageid": 13,
+                    "pagetype": "child",
+                    "pagename": "List Navigation",
+                    "enabled": true,
+                    "template": "listNavigation.json",
+                    "role": [
+                        "ALL",
+                        "ADMIN",
+                        "SUPERADMIN",
+                        "SENIOR",
+                        "JUNIOR"
+                    ]
+                }
+            ]
+        }
+    ]
+}
