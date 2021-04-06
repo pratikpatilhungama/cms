@@ -1,7 +1,7 @@
 {
     "pagetitle": "List Navigation",
     "pagesubtitle": "",
-    "stories": [
+    "rowData": [
         {
             "name": "Navigation1",
             "default":false,

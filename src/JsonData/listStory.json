@@ -1,7 +1,7 @@
 {
     "pagetitle": "List Story",
     "pagesubtitle": "",
-    "stories": [
+    "rowData": [
         {
             "name": "Story1",
             "Title_of_story":"title1",
