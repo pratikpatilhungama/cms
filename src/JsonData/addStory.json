@@ -1,0 +1,58 @@
+{
+    "pagetitle": "Create Story",
+    "pagesubtitle": "",
+    "components": [
+        {
+            "name": "Story Title",
+            "mandatory": true,
+            "type": "text",
+            "defaultvalue": "",
+            "length": 15,
+            "validation": ""
+        },
+        {
+            "name": "Title of the story",
+            "mandatory": true,
+            "type": "text",
+            "defaultvalue": "",
+            "length": 15,
+            "validation": ""
+        },
+        {
+            "name": "language",
+            "mandatory": true,
+            "type": "multiselect",
+            "defaultvalue": [
+                { "id":"101","language":"Hindi"},
+                 {"id":"102","language":"Marathi"},
+                 {"id":"104","language":"English"}
+             ],
+            "validation": ""
+        },
+        {
+            "name":"Date",
+            "mandatory": false,
+            "type": "date_time"
+
+        },
+        
+        {
+            "name":"Image Uplaod",
+            "mandatory": true,
+            "type":"upload"
+
+        },
+        {
+            "name": "Submit",
+            "type": "button",
+            "color":"primary",
+            "validation": ""
+        },
+        {
+            "name": "Clear",
+            "type": "button",
+            "color":"secondary",
+            "validation": ""
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "pagetitle": "List Story",
+    "pagesubtitle": "",
+    "stories": [
+        {
+            "name": "Story1",
+            "Title_of_story":"title1",
+            "language":"hindi",
+            "file":"abc"
+        },
+        {
+            "name": "Story2",
+            "Title_of_story":"title2",
+            "language":"Marathi",
+            "file":"abc"
+        },{
+            "name": "Story3",
+            "Title_of_story":"title3",
+            "language":"English",
+            "file":"abc"
+        },{
+            "name": "Story4",
+            "Title_of_story":"title4",
+            "language":"Hindi",
+            "file":"abc"
+        },{
+            "name": "Story5",
+            "Title_of_story":"title5",
+            "language":"hindi",
+            "file":"abc"
+        },{
+            "name": "Story6",
+            "Title_of_story":"title6",
+            "language":"Marathi",
+            "file":"abc"
+        },{
+            "name": "Story7",
+            "Title_of_story":"title7",
+            "language":"hindi",
+            "file":"abc"
+        },{
+            "name": "Story8",
+            "Title_of_story":"title8",
+            "language":"English",
+            "file":"abc"
+        },{
+            "name": "Story9",
+            "Title_of_story":"title9",
+            "language":"hindi",
+            "file":"abc"
+        },{
+            "name": "Story10",
+            "Title_of_story":"title10",
+            "language":"hindi",
+            "file":"abc"
+        }
+        
+    ]
+}

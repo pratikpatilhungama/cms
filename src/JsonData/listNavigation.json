@@ -1,0 +1,72 @@
+{
+    "pagetitle": "List Navigation",
+    "pagesubtitle": "",
+    "stories": [
+        {
+            "name": "Navigation1",
+            "default":false,
+            "enable":false,
+            "sequence":0,
+            "created_by":"a",
+            "modified_by":"a"
+        },
+        {
+            "name": "Navigation2",
+            "default":false,
+            "enable":false,
+            "sequence":1,
+            "created_by":"b",
+            "modified_by":"b"
+        },{
+            "name": "Navigation3",
+            "default":false,
+            "enable":false,
+            "sequence":2,
+            "created_by":"c",
+            "modified_by":"c"
+        },{
+            "name": "Navigation4",
+            "default":false,
+            "enable":false,
+            "sequence":3,
+            "created_by":"d",
+            "modified_by":"d"
+        },{
+            "name": "Navigation5",
+            "default":false,
+            "enable":false,
+            "sequence":4,
+            "created_by":"e",
+            "modified_by":"e"
+        },{
+            "name": "Navigation6",
+            "default":false,
+            "enable":false,
+            "sequence":5,
+            "created_by":"f",
+            "modified_by":"f"
+        },{
+            "name": "Navigation7",
+            "default":false,
+            "enable":false,
+            "sequence":6,
+            "created_by":"g",
+            "modified_by":"g"
+        },{
+            "name": "Navigation8",
+            "default":false,
+            "enable":false,
+            "sequence":7,
+            "created_by":"i",
+            "modified_by":"i"
+        },{
+            "name": "Navigation9",
+            "default":false,
+            "enable":false,
+            "sequence":8,
+            "created_by":"j",
+            "modified_by":"j"
+        }
+        
+    ]
+}

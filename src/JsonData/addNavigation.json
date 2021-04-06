@@ -1,0 +1,26 @@
+{
+    "pagetitle": "Create navigation",
+    "pagesubtitle": "",
+    "components": [
+        {
+            "name": "Name",
+            "mandatory": true,
+            "type": "text",
+            "defaultvalue": "",
+            "length": 15,
+            "validation": ""
+        },
+        {
+            "name": "Submit",
+            "type": "button",
+            "color":"primary",
+            "validation": ""
+        },
+        {
+            "name": "Clear",
+            "type": "button",
+            "color":"secondary",
+            "validation": ""
+        }
+    ]
+}

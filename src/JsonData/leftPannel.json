@@ -14,7 +14,7 @@
             ],
             "subpages": [
                 {
-                    "pageid": 2,
+                    "pageid": 11,
                     "pagetype": "child",
                     "pagename": "Add Stories",
                     "enabled": true,
@@ -25,10 +25,11 @@
                         "SUPERADMIN",
                         "SENIOR",
                         "JUNIOR"
-                    ]
+                    ],
+                    "type":"create"
                 },
                 {
-                    "pageid": 3,
+                    "pageid": 12,
                     "pagetype": "child",
                     "pagename": "List Stories",
                     "enabled": true,
@@ -39,12 +40,13 @@
                         "SUPERADMIN",
                         "SENIOR",
                         "JUNIOR"
-                    ]
+                    ],
+                    "type":"list"
                 }
             ]
         },
         {
-            "pageid": 11,
+            "pageid": 2,
             "pagetype": "parent",
             "pagename": "Top Navigation",
             "enabled": true,
@@ -57,7 +59,7 @@
             ],
             "subpages": [
                 {
-                    "pageid": 12,
+                    "pageid": 21,
                     "pagetype": "child",
                     "pagename": "Add Navigation",
                     "enabled": true,
@@ -68,10 +70,11 @@
                         "SUPERADMIN",
                         "SENIOR",
                         "JUNIOR"
-                    ]
+                    ],
+                    "type":"create"
                 },
                 {
-                    "pageid": 13,
+                    "pageid": 22,
                     "pagetype": "child",
                     "pagename": "List Navigation",
                     "enabled": true,
@@ -82,7 +85,8 @@
                         "SUPERADMIN",
                         "SENIOR",
                         "JUNIOR"
-                    ]
+                    ],
+                    "type":"list"
                 }
             ]
         }
