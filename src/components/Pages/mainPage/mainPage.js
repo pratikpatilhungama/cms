@@ -9,6 +9,7 @@ import {
     Select,
     MenuItem,
     Toolbar,
+    Box
 } from '@material-ui/core';
 import DateFnsUtils from '@date-io/date-fns';
 import {
@@ -40,7 +41,7 @@ export default function MainPage(props) {
 
     if (page === "create") {
         return (
-            <Paper className="pt-2 pb-5">
+            <Paper component={Box} p={4}>
                 <div className="text-center">
                     {data ? <h1>{data.pagetitle}</h1> : <h1>no data</h1>}
 
@@ -57,7 +58,7 @@ export default function MainPage(props) {
     else if (page === "list") {
         return (
             <Fragment>
-                <Paper>
+                <Paper className="pt-2">
                     <Toolbar>
                         {data ? <h1>{data.pagetitle}</h1> : <h1>no data</h1>}
                     </Toolbar>

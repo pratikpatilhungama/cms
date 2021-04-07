@@ -8,10 +8,11 @@ import {
     TableHead,
     TableRow,
     Paper,
-    TablePagination
+    TablePagination,
+    Button
 
 } from "@material-ui/core";
-
+import {Link} from 'react-router-dom'
 import DeleteForeverOutlinedIcon from '@material-ui/icons/DeleteForeverOutlined';
 import EditOutlinedIcon from '@material-ui/icons/EditOutlined';
 
@@ -71,7 +72,10 @@ export default class ListData extends Component {
 
         const { pagination, rowsPerPage } = this.state;
         return items.slice(pagination * rowsPerPage, (pagination + 1) * rowsPerPage).map((row, index) => {
-            return <TableRow key={index}><RenderRow key={index} data={row} keys={keys} /><TableCell><EditOutlinedIcon className={classes.btnedit} /><DeleteForeverOutlinedIcon className={classes.btndelete} /></TableCell></TableRow>
+            return <TableRow key={index}><RenderRow key={index} data={row} keys={keys} />
+            <TableCell><EditOutlinedIcon className={classes.btnedit} /><DeleteForeverOutlinedIcon className={classes.btndelete} /></TableCell>
+            
+            </TableRow>
         })
 
     }

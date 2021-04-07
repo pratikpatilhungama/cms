@@ -6,7 +6,6 @@ const drawerWidth = 240;
 export const useStyles = makeStyles((theme) => ({
   root: {
     display: 'flex',
-    justifyContent:"center",
     '& .MuiTextField-root': {
       margin: theme.spacing(1),
       width: 210,
@@ -48,16 +47,32 @@ export const useStyles = makeStyles((theme) => ({
   },
   formControl: {
     margin: theme.spacing(1),
-    minWidth: 210,
+    minWidth: "60%",
+    justifyContent:"left"
     
+  },
+  lables:{
+    justifyContent:"left",
+    display :"inline",
+    width:"10%"
+  },
+  
+  chips: {
+    display: "flex",
+    flexWrap: "wrap"
+  },
+  chip: {
+    margin: 2
+  },
+  noLabel: {
+    marginTop: theme.spacing(3)
   },
   selectEmpty: {
     marginTop: theme.spacing(2),
   },
   upload:{
-    margin: theme.spacing(1),
-    minWidth: 210,
-    width:"18%"
+    margin: theme.spacing(3),
+    width:"60%"
 
   },
   table: {
@@ -77,6 +92,14 @@ btndelete:{
 dateTime:{
   justifyContent:"center",  
   width:"18%"
+},
+inputField:{
+  width:"60%",
+  margin:theme.spacing(1)
+},
+btngrp:{
+  display :"inline",
+  margin:"1%"
 }
 
 }));

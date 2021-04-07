@@ -10,6 +10,42 @@
             "length": 15,
             "validation": ""
         },
+        
+        {
+            "name": "Position",
+            "mandatory": true,
+            "type": "select",
+            "defaultvalue": [
+                { "id":"101","position":"1"},
+                 {"id":"102","position":"2"},
+                 {"id":"104","position":"3"},
+                 {"id":"104","position":"4"},
+                 {"id":"104","position":"5"}
+             ],
+            "validation": ""
+        },
+        {
+            "name":"Live date time",
+            "mandatory": false,
+            "type": "date_time"
+
+        },
+        {
+            "name":"Expiry date time",
+            "mandatory": false,
+            "type": "date_time"
+
+        },
+        {
+            "name":"Enable",
+            "mandatory": false,
+            "type": "radio",
+            "values":[
+                {"id":"1", "value":"true"},
+                {"id":"2", "value":"false"}
+            ]
+
+        },
         {
             "name": "Submit",
             "type": "button",
